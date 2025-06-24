@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Portfolio Website HTML CSS and Javascript | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "Pdc5HeMfQGAF7MsxW",
+      });
+   })();
+</script>
+</head>
+
+<body>
+    
+            <div class="wrapper">
+                <div class="cover cover-left"></div>
+                <div class="cover cover-right"></div>
+
+                <div class="book">
+                    <!-- profile page -->
+                    <div class="book-page page-left">
+                        <div class="profile-page">
+                            <img src="Arun.png" alt="">
+                            <h1>Karuppaiya Alagaraj</h1>
+                            
+
+                            <div class="social-media">
+                                <a href="karuppaiya1316@gmail.com"><i class='bx bxl-gmail'></i></i></a>
+                                <a href="https://www.linkedin.com/in/karuppaiya-alagaraj/"><i class='bx bxl-linkedin' ></i></a>
+                                <a href="https://github.com/A-Karuppu"><i class='bx bxl-github' ></i></a>
+                                <a href="https://www.instagram.com/__arun__1311/?hl=en"><i class='bx bxl-instagram-alt' ></i></a>
+                            </div>
+
+                            <p>Hello, I'm Karuppaiya. I'm a driven Information Technology student at Anand Institute of Higher Technology. I'm passionate about building a successful career in IT, leveraging my skills in programming languages like Java and Python. I'm excited to apply my knowledge and skills to real-world problems and continue growing as a professional.</p>
+
+                            <div class="btn-box">
+                                <a href="Karuppaiya_Resume.pdf" download class="btn">Download CV</a>
+                                <a href="#" class="btn contact-me">Contact Me</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- page 1 & 2 -->
+                    <div class="book-page page-right turn" id="turn-1">
+                        <!-- page 1 (work experience) -->
+                        <div class="page-front">
+                            <h1 class="title">Work Experience</h1>
+
+                            <div class="workeduc-box">
+                                <div class="workeduc-content">
+                                    <span class="year"><i class='bx bxs-calendar'></i>2023-2023</span>
+                                    <h3>Digialtyic Technologies</h3>
+                                    <p>I completed an internship at Digitalytic Technologies, where I explored AI concepts and IoT applications. During this internship, I worked on several IoT projects and successfully developed a Baby Monitor system leveraging AI and IoT technologies.</p>
+                                </div>
+                                <div class="workeduc-content">
+                                    <span class="year"><i class='bx bxs-calendar'></i>2024-2024</span>
+                                    <h3>Arul Technologies</h3>
+                                    <p>I completed an internship at Arul Technologies in the Machine Learning department, where I developed a car price prediction project. This experience enabled me to acquire  knowledge and skills in Machine Learning.</p>
+                                </div>
+                                
+                            </div>
+                            <span class="number-page">1</span>
+                            <!-- next button -->
+                            <span class="nextprev-btn" data-page="turn-1">
+                                <i class='bx bx-chevron-right'></i>
+                            </span>
+                        </div>
+                        
+                        <!-- page 2 (education) -->
+                        <div  class="page-back">
+                            <h1 class="title">Education</h1>
+                            <div class="workeduc-box">
+                                <div class="workeduc-content">
+                                    <span class="year"><i class='bx bxs-calendar'></i>2021-2025</span>
+                                    <h3>B.Tech</h3>
+                                    <p>I have completed my degree in Information Technology at Anand Institute of Higher Technology, where I consistently maintained a CGPA of 8.1.</p>
+                                </div>
+                                <div class="workeduc-content">
+                                    <span class="year"><i class='bx bxs-calendar'></i>2019-2021</span>
+                                    <h3>HSC</h3>
+                                    <p>I completed my Higher Secondary Certificate (HSC) at Marist Higher Secondary School, achieving a score of 76%.</p>
+                                </div>
+                                <div class="workeduc-content">
+                                    <span class="year"><i class='bx bxs-calendar'></i>2018-2019</span>
+                                    <h3>SSLC</h3>
+                                    <p>I completed my Secondary School Leaving Certificate (SSLC) at Marist Higher Secondary School, achieving a score of 70%.</p>
+                                </div>
+                            </div>
+                            <span class="number-page">2</span>
+                            <!-- prev button -->
+                            <span class="nextprev-btn back" data-page="turn-1">
+                                <i class='bx bx-chevron-left'></i>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- page 3 & 4 -->
+                    <div class="book-page page-right turn" id="turn-2">
+                        <!-- page 3 (my serices) -->
+                        <div class="page-front">
+                            <h1 class="title">My Projects</h1>
+                            <div class="services-box">
+                                <div class="services-content">
+                                    <i class='bx bx-code-alt'></i>
+                                    <h3>Weather Tracker</h3>
+                                    <p>I used Java, MySQL, Spring Boot, HTML, CSS, and JavaScript in this project. Once we enter weather data, it gets stored in the database, and we can retrieve data by city name and also sort the data in ascending and descending order by temperature and city.</p>
+                                    <a href="https://github.com/A-Karuppu/weather-spring" class="btn">Read More</a>
+                                </div>
+
+                                <div class="services-content">
+                                    <i class='bx bxs-paint'></i>
+                                    <h3>Task Manger</h3>
+                                    <p>In our task management system, users can enter tasks and mark them as complete or incomplete. The application is built using Java, Springboot, MySQL, HTML, CSS, and JavaScript, allowing for efficient task tracking and management.</p>
+                                    <a href="https://github.com/A-Karuppu/Task_Manger" class="btn">Read More</a>
+                                </div>
+                                
+                            </div>
+                            <span class="number-page">3</span>
+                            <!-- next button -->
+                            <span class="nextprev-btn" data-page="turn-2">
+                                <i class='bx bx-chevron-right'></i>
+                            </span>
+                        </div>
+                        <!-- page 4 (my skills) -->
+                        <div class="page-back">
+                            <h1 class="title">My Skills</h1>
+                            <div class="skills-box">
+                                <div class="skills-content">
+                                    <h3>Front-End</h3>
+                                    <div class="content">
+                                        <span><i class='bx bxl-html5'></i>HTML</span>
+                                        <span><i class='bx bxl-css3'></i>CSS</span>
+                                        <span><i class='bx bxl-javascript'></i>JS</span>
+                                        
+                                        
+                                    </div>
+                                </div>
+                                <div class="skills-content">
+                                    <h3>Back-End</h3>
+                                    <div class="content">
+                                        <span><i class='bx bxl-python'></i>Python</span>
+                                        <span><i class='bx bxl-java'></i>Java</span>
+                                        <span><i class='bx bx-network-chart'></i>Microservices</span>
+
+                                    </div>
+                                </div>
+                                <div class="skills-content">
+                                    <h3>Database</h3>
+                                    <div class="content">
+                                      <span><i class='bx bxs-data'></i>MySQL</span>
+
+                                    </div>
+                                </div>
+                
+                                <div class="skills-content">
+                                    <h3>Frame Work</h3>
+                                    <div class="content">
+                                     <span><i class="fa-brands fa-java"></i> Spring Boot</span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <span class="number-page">4</span>
+                            <!-- prev button -->
+                            <span class="nextprev-btn back" data-page="turn-2">
+                                <i class='bx bx-chevron-left'></i>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- page 5 & 6 -->
+                    <div class="book-page page-right turn" id="turn-3">
+                        <!-- page 5 (Lates project or my portfolio) -->
+                        <div class="page-front">
+                            <h1 class="title">Current Project</h1>
+
+                            <div class="portfolio-box">
+                                <div class="img-box">
+                                    <img src="logo.webp" alt="">
+                                </div>
+                                <div class="info-box">
+                                    <div class="info-title">
+                                        <h3>Movie Booking</h3>
+                                        <a href="#">Live Preview <i class='bx bx-link-external'></i></a>
+                                    </div>
+                                    <p>Java Full Stack:</p>
+                                    <p>I'm building a movie booking Java full-stack project for personal development to enhance my Java skills. The project uses Java, Microservices, Spring Boot, MySQL, HTML, CSS, and JavaScript, with separate files connected via microservices.</p>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="https://github.com/A-Karuppu/MovieBooking" class="btn">Source Code</a>
+                                    <a href="https://github.com/A-Karuppu?tab=repositories" class="btn">More Projects</a>
+                                </div>
+                            </div>
+                            <span class="number-page">5</span>
+                            <!-- next button -->
+                            <span class="nextprev-btn" data-page="turn-3">
+                                <i class='bx bx-chevron-right'></i>
+                            </span>
+                        </div>
+
+                        <!-- page 6 (contact me) -->
+                        <div class="page-back">
+                            <h1 class="title">Contact Me!</h1>
+                            <div class="contact-box">
+                               <form id="contact-form">
+                                    <input type="text" id="name" class="field" placeholder="Full Name" required>
+                                    <input type="email" id="email" class="field" placeholder="Email Address" required>
+                                    <textarea id="message" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+                                    <input type="submit" class="btn" value="Send Message">
+                                </form>
+
+
+                            </div>
+
+                            <span class="number-page">6</span>
+                            <!-- prev button -->
+                            <span class="nextprev-btn back" data-page="turn-3">
+                                <i class='bx bx-chevron-left'></i>
+                            </span>
+
+                            <a href="#" class="back-profile">
+                                <p>Profile</p>
+                                <i class='bx bxs-user'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
